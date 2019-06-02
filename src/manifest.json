@@ -1,0 +1,11 @@
+{
+  "name": "Jupyter-matchingbracket-color",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Change matching bracket color",
+  "content_scripts": [{
+    "matches": ["http://localhost:8888/notebooks/*"],
+    "css": ["sheet.css"]
+  }]
+}
+
